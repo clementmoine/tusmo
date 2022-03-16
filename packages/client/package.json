@@ -1,0 +1,26 @@
+{
+  "name": "@tusmo/client",
+  "version": "1.0.0",
+  "description": "TUSMO client",
+  "main": "dist/index.js",
+  "author": "Clément MOINE <clement.moine86@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tusmo/server": "1.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "sass": "^1.49.9"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.40",
+    "@types/react-dom": "17.0.13",
+    "@vitejs/plugin-react": "1.2.0",
+    "typescript": "4.6.2",
+    "vite": "2.8.6"
+  }
+}
